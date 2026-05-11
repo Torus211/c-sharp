@@ -95,70 +95,60 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form2.cs">
+    <Compile Include="ContractEditForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <Compile Include="ContractEditForm.Designer.cs">
+      <DependentUpon>ContractEditForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form3.cs">
+    <Compile Include="ProductEditForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form3.Designer.cs">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <Compile Include="ProductEditForm.Designer.cs">
+      <DependentUpon>ProductEditForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form4.cs">
+    <Compile Include="ShipmentEditForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form4.Designer.cs">
-      <DependentUpon>Form4.cs</DependentUpon>
+    <Compile Include="ShipmentEditForm.Designer.cs">
+      <DependentUpon>ShipmentEditForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormAddClient.cs">
+    <Compile Include="ClientEditForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormAddClient.Designer.cs">
-      <DependentUpon>FormAddClient.cs</DependentUpon>
+    <Compile Include="ClientEditForm.Designer.cs">
+      <DependentUpon>ClientEditForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormFutura.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormFutura.Designer.cs">
-      <DependentUpon>FormFutura.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormFuturaAdd.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormFuturaAdd.Designer.cs">
-      <DependentUpon>FormFuturaAdd.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <EmbeddedResource Include="ContractEditForm.resx">
+      <DependentUpon>ContractEditForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form3.resx">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <EmbeddedResource Include="ProductEditForm.resx">
+      <DependentUpon>ProductEditForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form4.resx">
-      <DependentUpon>Form4.cs</DependentUpon>
+    <EmbeddedResource Include="ShipmentEditForm.resx">
+      <DependentUpon>ShipmentEditForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormAddClient.resx">
-      <DependentUpon>FormAddClient.cs</DependentUpon>
+    <EmbeddedResource Include="ClientEditForm.resx">
+      <DependentUpon>ClientEditForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormFutura.resx">
-      <DependentUpon>FormFutura.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormFuturaAdd.resx">
-      <DependentUpon>FormFuturaAdd.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
